@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+
+.maintitle {
+    height: 25px;
+    padding: 10px;
+    font-family: "Lexend", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    text-align: center;
+    font-weight: 900;
+    font-size:large;
+}
+
+.subtitle {
+    height: 10px;
+    padding: 10px;
+    font-family: "Lexend", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    text-align: center;
+    font-weight: 900;
+}
+.fourwaywrapperimg {
+    display: grid;
+    grid-gap: 0px;
+    width: 110vw;
+    margin-left: -1.25vw;
+    grid-template-columns: repeat(4, 25vw);
+    grid-template-rows: fit-content;
+    background-color: #000;
+    color: #aaa;
+}
+
+.fourwaywrappertext {
+    display: grid;
+    grid-gap: 0px;
+    width: 110vw;
+    margin-left:-1.25vw;
+    grid-template-columns: repeat(4, 25vw);
+    grid-template-rows:max-content;
+    background-color: #000;
+    color: #aaa;
+}
+
+.content {
+    height: fit-content;
+    padding: 10px;
+    font-family: "Lexend", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    text-align:center;
+
+    .bold {
+        font-weight: 900;
+        color: #bcb;
+    }
+}
+
+.spinesimg {
+    background-image: url("spines.gif");
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+    height:25vw;
+    image-rendering:pixelated;
+
+}
+
+.noleavesimg {
+    background-image: url("spines.gif");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 25vw;
+    image-rendering: pixelated;
+
+}
+
+.longrootsimg {
+    background-image: url("spines.gif");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 25vw;
+    image-rendering: pixelated;
+
+}
+
+.waterstoreimg {
+    background-image: url("spines.gif");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 25vw;
+    image-rendering: pixelated;
+
+}
